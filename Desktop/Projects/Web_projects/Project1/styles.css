@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    overflow: hidden;
+    background-image: url("minimal-triangle-white-background-4k-ll.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+    color: hsl(0, 0%, 17%);
+}
+.countdown{
+    text-align: center;
+    display: flex;
+    margin-right: 30px;
+    font-size: 4rem;
+    font-weight: bold;
+    position: relative;
+    left: 42%;
+    top: 150px;
+}
